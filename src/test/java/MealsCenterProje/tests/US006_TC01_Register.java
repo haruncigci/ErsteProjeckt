@@ -1,6 +1,6 @@
 package MealsCenterProje.tests;
 
-import MealsCenterProje.pages.MealsCenterpage;
+import MealsCenterProje.pages.MealsCenterLoginpage;
 import MealsCenterProje.utilities.Driver;
 import com.github.javafaker.Faker;
 import org.openqa.selenium.Keys;
@@ -11,7 +11,7 @@ public class US006_TC01_Register {
 
     @Test
     public void Register(){
-        MealsCenterpage mealsCenterpage=new MealsCenterpage();
+        MealsCenterLoginpage mealsCenterpage=new MealsCenterLoginpage();
 
         //"https://qa.mealscenter.com/"  sitesine git
         Driver.getDriver().get("https://qa.mealscenter.com/");

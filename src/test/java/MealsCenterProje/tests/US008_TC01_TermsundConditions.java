@@ -1,6 +1,6 @@
 package MealsCenterProje.tests;
 
-import MealsCenterProje.pages.MealsCenterpage;
+import MealsCenterProje.pages.MealsCenterLoginpage;
 import MealsCenterProje.utilities.ConfigurationReader;
 import MealsCenterProje.utilities.Driver;
 import org.openqa.selenium.JavascriptExecutor;
@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 public class US008_TC01_TermsundConditions {
     @Test
     public void TermsundConditionsTest(){
-        MealsCenterpage mealsCenterpage=new MealsCenterpage();
+        MealsCenterLoginpage mealsCenterpage=new MealsCenterLoginpage();
 
         //"https://qa.mealscenter.com/ " sitesine git
         Driver.getDriver().get(ConfigurationReader.getProperty("mealsUrl"));

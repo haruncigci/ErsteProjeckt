@@ -1,6 +1,6 @@
 package MealsCenterProje.tests;
 
-import MealsCenterProje.pages.MealsCenterpage;
+import MealsCenterProje.pages.MealsCenterLoginpage;
 import MealsCenterProje.utilities.ConfigurationReader;
 import MealsCenterProje.utilities.Driver;
 import org.openqa.selenium.Keys;
@@ -14,7 +14,7 @@ public class US005_TC01_Login {
     public void loginTesti(){
 
 
-        MealsCenterpage mealsCenterpage=new MealsCenterpage();
+        MealsCenterLoginpage mealsCenterpage=new MealsCenterLoginpage();
 
         //"https://qa.mealscenter.com/" internet Sitesine Git ve Sign in butonuna Tikla
        // Driver.getDriver().get("https://qa.mealscenter.com/");

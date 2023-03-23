@@ -1,18 +1,16 @@
 package MealsCenterProje.tests;
 
-import MealsCenterProje.pages.MealsCenterpage;
-import MealsCenterProje.utilities.ConfigurationReader;
+import MealsCenterProje.pages.MealsCenterLoginpage;
 import MealsCenterProje.utilities.Driver;
 import MealsCenterProje.utilities.ReusableMethods;
 import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 
 public class US007_TC01_ContactUs {
     @Test
     public void ContactUsTest(){
-        MealsCenterpage mealsCenterpage=new MealsCenterpage();
+        MealsCenterLoginpage mealsCenterpage=new MealsCenterLoginpage();
 
         //- "https://qa.mealscenter.com/" sitesine gidilebilmeli
         Driver.getDriver().get("https://qa.mealscenter.com/");

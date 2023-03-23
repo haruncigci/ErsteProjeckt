@@ -1,6 +1,6 @@
 package MealsCenterProje.tests;
 
-import MealsCenterProje.pages.MealsCenterpage;
+import MealsCenterProje.pages.MealsCenterLoginpage;
 import MealsCenterProje.utilities.ConfigurationReader;
 import MealsCenterProje.utilities.Driver;
 import org.openqa.selenium.JavascriptExecutor;
@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 public class US009_TC01_PrivacyPolicy {
     @Test
     public void PrivacyPolicyTest(){
-        MealsCenterpage mealsCenterpage=new MealsCenterpage();
+        MealsCenterLoginpage mealsCenterpage=new MealsCenterLoginpage();
 
 
         //"https://qa.mealscenter.com/"  sitesine git
